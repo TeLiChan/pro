@@ -75,21 +75,26 @@ body{
 	background-color: #eee;
 }
 
-.content-news{
-
-}
-
+.content-news,
 .content-close{
 	float: right;
 	width: 248px;
 	height: 236px;
 	border:1px solid #ccc;
-	margin-top:12px;
+	margin-bottom:12px;
 	border-color:red;
 }
 
+.content-news .more,
+.content-close .more{
+	float: right;
+	padding-right: 22px;
+	font-size: 15px;
+	color: #868686;
+}
+
 .footer{
-	height: 132px;
+	height: 70px;
 	padding: 25px 0;
 	background-color: #eceef2;
 }
