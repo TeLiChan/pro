@@ -14,7 +14,6 @@ $.fn.UiSearch =function(){
 	})
 
 	$('body').on('click',function(){
-		debugger
 		$('.ui-search-select-list').hide();
 	})
 }
